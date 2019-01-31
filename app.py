@@ -50,6 +50,10 @@ def home():
 def about():
     return render_template('pages/placeholder.about.html')
 
+@app.route('/graph')
+def graph():
+    return render_template('pages/placeholder.graph.html')
+
 
 @app.route('/login')
 def login():
